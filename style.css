@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+body {
+  width: 100vw;
+  background-color: #222;
+}
+.keys {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.key {
+  border: 2px solid #ADFCE2;
+  border-radius: 5px;
+  margin: 0.5rem;
+  font-size: 1rem;
+  padding: 1rem .5rem;
+  transition: all 0.07s;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  color: #61FCC8;
+  background: #222;
+}
+
+.playing {
+  transform: scale(1.2);
+  border-color: #61FCC8;
+  box-shadow: 0 0 10px #61FCC8;
+}
+
+kbd {
+  display: block;
+  font-size: 1.8rem;
+  color: #61FCC8;
+}
+
+.sound {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #FFF;;
+}
